@@ -1,0 +1,140 @@
+/* Home page - basic styling throughout site */
+body {
+    background-color: rgb(228, 227, 227);
+
+}
+
+h1, h2, h3, h4 {
+    color: blue;
+    text-align: center;
+    font-family: 'Protest Strike';
+}
+
+p,a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+ul {
+    color: white;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    border: 1em black solid;
+}
+
+.job_description {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+/* Navagation bar */
+
+nav.navbar {
+    background-color: rgb(89, 93, 147);
+    border: 1em solid rgb(254, 254, 254);
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+/* table formatting */
+table {
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    background: rgb(57, 67, 116);
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(127, 172, 249);
+}
+
+th, td {
+    height: 25px;
+    width: 15%;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 253, 253);
+    text-align: center;
+    border-collapse: collapse;
+    color: aliceblue;
+}
+
+
+/* Form formatting */
+.fieldset {
+    /* border-bottom: hidden;  */
+    border-left: hidden; 
+    border-right: hidden;
+    color: antiquewhite;
+    height: 300px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.submit {
+    transition-duration: 0.4s;
+}
+
+.submit:hover {
+    background-color: green; /* Green */
+    color: white;
+    padding: 10px;
+}
+
+.reset {
+    transition-duration: 0.4s;
+}
+
+.reset:hover {
+    background-color: red; /* Green */
+    color: white;
+    padding: 10px;
+}
+
+/* Multmedia */
+.video {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+.audio {
+    width: 100%;
+    padding-top: 3em;
+}
+
+
+
