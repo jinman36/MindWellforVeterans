@@ -7,13 +7,17 @@
         <meta name="description" content="MindWell For Vets Home Page">
         <meta name="keywords" content="Health, Veterans, Veterans Affairs">
         <meta name="author" content="Jeff Inman">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style/MWVStylesheet.css">
         <title>
             MindWell For Vets || Home
         </title>
     </head>
     <body>
-        <h1> MindWell For Veterans</h1>
+      <header>
+        <img class="header" src="images/MWV.JPG" alt="linkedIn picture">
+      </header>
+
         <nav class="navbar">
             <ul class="nav-list">
                 <!-- Javascript fuctions - coloring on the navigation tab :) -->
@@ -27,99 +31,175 @@
                 <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
             </ul>
         </nav>
-        <h1>The Job I Want</h1>
-        <p class="job_description">I love the job I have. I am going to school to get better at it.<br>
-        The table below, shows experience levels, job titles, salary, education, and a quick role up of relevant skills needed to work in this industry.</p>
-            <!-- HTML Table - Content includes a Job Description, Knowledge/Skills required for the job, Training/Education required for the job, and Salary/Benefits expected from the job -->
-        <table>
-            <caption>Data Science Job Statistics</caption>
-            <tr>
-                 <th>Experience Level</th>
-                 <th>Job Title</th>
-                 <th>Salary (USD)</th>
-                 <th>Company Size</th>
-                 <th>Education</th>
-                 <th>Skills Required</th>
-            </tr>
-            <tr>
-                 <td>Mid Level</td>
-                 <td>Data Scientist</td>
-                 <td>79833</td>
-                 <td>Large</td>
-                 <td>Bachelors Degree</td>
-                 <td>
-                    <ul>
-                        <li>Experience using statistical computer languages (R, Python, SLQ, etc.) to manipulate data and draw insights from large data sets.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                 <td>Senior Level</td>
-                 <td>Machine Learning Scientist</td>
-                 <td>260000</td>
-                 <td>Small</td>
-                 <td>Bachelors Degree</td>
-                 <td>
-                    <ul>
-                        <li>Machine Learning</li>
-                        <li>Pytorch</li>
-                        <li>Tensorflow</li>
-                        <li>Deep Learning</li>
-                        <li>Keras</li>
-                        <li>Python SAS</li>
-                        <li>Scikit</li>
-                        <li>Statistics</li>
-                    </ul>
-                 </td>
-            </tr>
-            <tr>
-                 <td>Senior Level</td>
-                 <td>Big Data Engineer</td>
-                 <td>109024</td>
-                 <td>Medium</td>
-                 <td>Bachelors Degree</td>
-                 <td>
-                    <ul>
-                        <li>Advanced working SQL knowledge and experience working with relational databases, query authoring (SQL) as well as working familiarity with a variety of databases.</li>
-                        <li>Experience building and optimizing ‘big data’ data pipelines, architectures and data sets.</li>
-                    </ul>
-                    </td>
-            </tr>
-            <tr>
-                 <td>Mid Level</td>
-                 <td>Product Data Analyst</td>
-                 <td>2000</td>
-                 <td>Small</td>
-                 <td>Bachelors Degree</td>
-                 <td>
-                    <ul>
-                        <li>Technical skills: data analysis, data visualization, statistical analysis, and technical tools.</li>
-                        <li>Workplace skills: Critical thinking, project management, and communication skills.</li>
-                        <li>Business skills: Business analysis and business acumen.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                 <td>Senior Level</td>
-                 <td>Machine Learning Engineer</td>
-                 <td>150000</td>
-                 <td>Large</td>
-                 <td>Bachelors Degree</td>
-                 <td>
-                    <ul>
-                        <li>Machine Learning</li>
-                        <li>Pytorch</li>
-                        <li>Tensorflow</li>
-                        <li>Deep Learning</li>
-                        <li>Keras</li>
-                        <li>Python SAS</li>
-                        <li>Scikit</li>
-                        <li>Statistics</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <!-- Data Science Statistics obtained from  https://www.kaggle.com/code/hasibalmuzdadid/data-science-jobs-salary-analysis-retro-vibe#7-->
-        <!-- Data Job skills required - Glassdoor.com -->
+
+        <h4>Helpful Links</h4>
+        <h4>--------------</h4>
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/VAseal.JPG" class="card-img-top" style="height: 10rem;" alt="Veterans Affairs Logo">
+                    <div class="card-body">
+                      <h5 class="card-title">Department of Veterans Affairs</h5>
+                      <a href="https://www.va.gov/" class="btn btn-primary stretched-link" target="_blank">Veterans Affairs Official Site</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/vfw_logo.JPG" class="card-img-top"  style="height: 10rem;" alt="VFW Stock image">
+                    <div class="card-body">
+                      <h5 class="card-title">VFW - Veterans of Foreign Wars</h5>
+                      <a href="https://www.vfw.org/assistance" class="btn btn-primary stretched-link" target="_blank">VFW Official Site</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/VFW_counsel.JPG" class="card-img-top" style="height: 10rem;" alt="Veteran Affairs Seal">
+                    <div class="card-body">
+                      <h5 class="card-title">Find a VA accredited representative or VSO</h5>
+                      <a href="https://www.va.gov/get-help-from-accredited-representative/find-rep/" class="btn btn-primary stretched-link" target="_blank">Find a VSO</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/USA.JPG" class="card-img-top" style="height: 10rem;" alt="Veterans Affairs Logo">
+                    <div class="card-body">
+                      <h5 class="card-title">Veteran Affairs Location Search</h5>
+                      <a href="https://www.va.gov/find-locations" class="btn btn-info stretched-link" target="_blank">Veterans Affairs Location Search</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/vfw.JPG" class="card-img-top"  style="height: 10rem;" alt="VFW Stock image">
+                    <div class="card-body">
+                      <h5 class="card-title">How to Apply for VA Benefits</h5>
+                      <a href="https://www.va.gov/education/how-to-apply/" class="btn btn btn-info stretched-link" target="_blank">Apply for VA Benfits</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/VAseal_alt.JPG" class="card-img-top" style="height: 10rem;" alt="Veteran Affairs Seal">
+                    <div class="card-body">
+                      <h5 class="card-title">VA claim, Decision review, or appeal status</h5>
+                      <a href="https://www.va.gov/claim-or-appeal-status/" class="btn btn-info stretched-link" target="_blank">Check status</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <h4>Available Practictioners</h4>
+          <h4>------------------------</h4>
+          <table>
+              <thead>
+                  <tr>
+                      <th scope="col">Practice</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">City</th>
+                      <th scope="col">State</th>
+                    </tr>
+                </thead>
+                <tbody id="practitioners">
+                    
+                </tbody>
+            </table>
+            <div class="container">
+                <button class="btn btn-primary" onclick="load_data()">Load Practitioner</button>
+                <button class="btn btn-danger" onclick="clear_data()">Clear Results</button>
+                <!-- Zip Code Practitioner Search box / not fuctional for prototype-->
+                <h4 style="padding-left: 3rem;">Zip Code:</h4>
+                <input type="text" name="zip_code" placeholder="Zip Code"><br>
+            </div>
+
+            <!-- Calender embed to arrange time for mentorship -->
+
+          <div class="calender">
+              <div class="calendly-inline-widget" data-url="https://calendly.com/jeffery-inman36/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px; padding: 3em;"></div>
+              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+
+          <h4>Additional Educational Links</h4>
+          <h4>----------------------------</h4>
+          
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <a class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/health-care/about-va-health-benefits/" target="_blank">VA health benefits</a>
+              </div>
+
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <a  class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/disability/how-to-file-claim/" target="_blank">How to File a VA Claim</a>
+              </div>
+            </div>
+            <div class="row align-items-end">
+              <div class="col">
+                <a  class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/disability/view-disability-rating/" target="_blank">View your Disability Rating</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <a  class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/education/about-gi-bill-benefits/" target="_blank">About GI Bill Benefits</a>
+              </div>
+
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <a  class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/family-member-benefits/6" target="_blank">Benefits for Family Members</a>
+              </div>
+            </div>
+            <div class="row align-items-end">
+              <div class="col">
+                <a  class="general" onmouseover="style.color='orange'" onmouseout="style.color='black'" href="https://www.va.gov/service-member-benefits/" target="_blank">Benefits for Service Members</a>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p>&#169; 2024 MindWell for Vets</p>
+            <p>Jeff Inman</p>
+            <p>Computer Technology Intermediate Capstone/ ITCC298/ Spring 2024 </p>
+            <p>Instructor: Michael Tomcho</p>
+            <p>American Public University</p>
+          </footer>
+
+          <!-- Scripts for JQEARY and Bootstrap components -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js" integrity="sha512-docBEeq28CCaXCXN7cINkyQs0pRszdQsVBFWUd+pLNlEk3LDlSDDtN7i1H+nTB8tshJPQHS0yu0GW9YGFd/CRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script>
+            function load_data() {
+              fetch("https://gist.githubusercontent.com/jinman36/3a312fdb41b63fbd08595b3bf3ab2aad/raw/bb808b2ebb90e1e6284300b537f5f614687cc1bd/VA_Provider_sandbox_api.json").then(res => res.json())
+              .then(res => {
+                str_body = ""
+      
+                res.forEach(r => {
+                  str_body += `
+                    <tr>
+                      <td>${r['resourceType']}</td>
+                      <td>${r['name'][0]['given']}</td>
+                      <td>${r["address"][0]['city']}</td>
+                      <td>${r["address"][0]['state']}</td>
+                    </tr>
+                  `
+                });
+                $("#practitioners").html(str_body)
+              })
+            }
+            function clear_data() {
+              $("#practitioners").html("")
+            }
+          </script>
     </body>
 </html>
