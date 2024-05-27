@@ -1,6 +1,10 @@
 /* Home page - basic styling throughout site */
 body {
     background-color: rgb(228, 227, 227);
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 30px;
 }
 
 h1 {
@@ -17,7 +21,7 @@ h4 {
 
 a {
     font-family: 'Protest Strike';
-    color: rgb(238, 237, 237);
+    color: rgb(3, 106, 249);
     font-size: 1em;
     padding-left: 30px;
     padding-right: 30px;
@@ -37,17 +41,29 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    background: #333; 
+    color: #fff; 
+    padding-top: 30px; 
+    min-height: 70px; border-bottom: #77aaff 3px solid; 
 }
+
 img.header {
     height: 10em;
     width: 10em;
 }
 
-ul {
-    color: white;
+header ul {
+    color: rgb(8, 0, 0);
     font-size: 1.2em;
+    padding: 0; 
+    list-style-type: none; 
 }
+
+header li { float: left; 
+    display: inline; 
+    padding: 0 20px 0 20px; 
+}
+
 
 div.container {
     display: flex;
@@ -72,10 +88,19 @@ nav.navbar {
     list-style: none;
 }
 
+a.nav-link {
+    font-family: 'Protest Strike';
+    color: rgb(253, 253, 253);
+    font-size: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* Link card formatting */
 .card {
     border: 1em solid rgb(254, 254, 254);
 }
+
 .card:hover {
     background-color: green; /* Green */
     color: white;
@@ -106,6 +131,20 @@ table, th, td {
     border-collapse: collapse;
     color: aliceblue;
 }
+
+/* Userguide formatting */
+.user-container { 
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden; 
+}
+
+.branding {
+    float: left; 
+    margin: 0; 
+}
+
+
 
 
 /* Form formatting */
