@@ -13,7 +13,9 @@
         </title>
     </head>
     <body>
-        <h1>Jeff Inman's AI/ML Introduction</h1>
+        <header>
+            <img class="header" src="images/MWV.JPG" alt="linkedIn picture">
+          </header>
         <nav class="navbar">
             <ul class="nav-list">
                 <!-- Javascript fuctions - coloring on the navigation tab :) -->
@@ -27,58 +29,15 @@
                 <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
             </ul>
         </nav>
+        
 
-        <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" target="_blank">
-            <h2>Quiz on Information Covered on this Site</h2>
-            <div class="container">
-                <fieldset class="fieldset">
-                    <!-- 1. Text box -->
-                    <h4>User name:</h4>
-                    <input type="text" name="username" placeholder="Required: username" required="required"><br>
-                </fieldset>
-                <fieldset class="fieldset">
-                    <!-- 2. Radio Button -->
-                    <h4>What is a standard train-test-split percentage?</h4>
-                    <input type="radio" name="year" value="sampling_with_replacement">80/20 - Training set/test set<br>
-                    <input type="radio" name="year" value="sampling_with_replacement">80/20 - Test Set/ Training Set<br>
-                    <input type="radio" name="year" value="sampling_with_replacement">50/50 - Test Set/ Training Set<br>
-                    <input type="radio" name="year" value="sampling_with_replacement">10/90 - Test Set/ Training Set<br>
-                    <input type="radio" name="year" value="sampling_with_replacement">75/25 - Test Set/ Training Set<br>
-
-                </fieldset>
-                <fieldset class="fieldset">
-                    <!-- 3. check boxes -->
-                    <h4>What is the average education level required in all data related feilds?</h4>
-                    <input type="checkbox" name="subjects" value="logistic_regression">Associates Degree<br>
-                    <input type="checkbox" name="subjects" value="unsupervised_learning">Bachelors Degree<br>
-                    <input type="checkbox" name="subjects" value="supervised_learning">Certifications<br>
-                    <input type="checkbox" name="subjects" value="networking">Boot Camp<br>
-                </fieldset>
-                <fieldset class="fieldset">
-                    <!-- 4. multiple option select list -->
-                    <h4>Why would we not want a model to test 100% accuracy on training data?</h4>
-                    <select name="supervised_learning" multiple>
-                       <option value="logistic_regression">Model Overfitting</option>
-                       <option value="unlabeled_data">Target Incorporated in Feature Selection</option>
-                       <option value="pca">Principal Component Analysis (PCA)</option>
-                       <option value="gbt">Model Underfitting</option>
-                    </select>
-                </fieldset>
-                <fieldset class="fieldset">
-                    <!-- 5. text area -->
-                    <h4>What is the significants of a Confusion Matrix?</h4>
-                    <textarea name="comments" rows="10" cols="30" placeholder="enter text here">
-                    </textarea>
-                </fieldset>
-                </div>
-                <!-- #6 HTML form field is located on the video.html page -->
-                <div class="center">
-                    <!-- reset button -->
-                    <input type="reset" class="reset" value="Reset">
-                    <!-- submit button -->
-                    <input type="submit" class="submit" name="Submit" value="Submit" onclick='document.getElementById("demo").innerHTML = Date()'>
-                </div>
-            </form>
+        <footer>
+            <p>&#169; 2024 MindWell for Vets</p>
+            <p>Jeff Inman</p>
+            <p>Computer Technology Intermediate Capstone/ ITCC298/ Spring 2024 </p>
+            <p>Instructor: Michael Tomcho</p>
+            <p>American Public University</p>
+          </footer>
     </body>
 </html>    
 
