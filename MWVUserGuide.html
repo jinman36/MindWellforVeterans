@@ -16,21 +16,200 @@
         <header>
             <img class="header" src="images/MWV.JPG" alt="linkedIn picture">
           </header>
-        <nav class="navbar">
+          <nav class="navbar">
             <ul class="nav-list">
                 <!-- Javascript fuctions - coloring on the navigation tab :) -->
-                <li ><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVHomePage.html">Home</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVMarketing.html">Marketing</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVPrototype.html">Prototype</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVUserGuide.html">User Guide</a></li>
-                <li>||----||</li>
-                <li ><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="MWVaboutme.html">About Me</a></li>
-                <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://www.linkedin.com/in/jefferyinman/" target="_blank">linkedIn</a></li>
-                <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
+                <li ><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVHomePage.html">Home</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVMarketing.html">Marketing</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVPrototype.html">Prototype</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVUserGuide.html">User Guide</a></li>
+                <li ><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="MWVaboutme.html">About Me</a></li>
+                <li><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://www.linkedin.com/in/jefferyinman/" target="_blank">linkedIn</a></li>
+                <li><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
             </ul>
         </nav>
         
+        <div class="user-container">
+            <div id="branding">
+                <h1>MindWell for Veterans || User Manual</h1>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="user-container">
+        <div class="main-content">
+            <h2>Contents</h2>
+            <ol>
+                <li>User Guide Introduction</li>
+                <li>Description of the Product</li>
+                <li>Using MindWell for Veterans
+                    <ul>
+                        <li>Main Interface Overview</li>
+                        <li>Key Features and Functions</li>
+                        <li>Advanced Settings</li>
+                    </ul>
+                </li>
+                <li>Technical Specifications</li>
+                <li>Relation to other Documents</li>
+                <ul>
+                    <li>Deployed Web Link</li>
+                    <li>Github Repository</li>
+                    <li>User Support Manual</li>
+                </ul>
+                
+                <li>Composition of the Product</li>
+                <li>Images</li>
+                <ul>
+                    <li>MindWell Site Map</li>
+                    <li>MindWell Network Overview</li>
+                    <li>MindWell Feature Usage Example (Practitioner Table Collapsed)</li>
+                    <li>MindWell Feature Usage Example (Practitioner Table Expanded)</li>
+                </ul>
+                <li>Local Installation and Setup</li>
+                <li>Frequently Asked Questions (FAQ)</li>
+                <li>Troubleshooting</li>
+                <li>Contact and Support Information</li>
+            </ol>
+            
+            <h2>User Guide Introduction</h2>
+            <h3>Indications for the Use of the User Manual</h3>
+            <p>This user manual provides instructions on how to use the MindWell for Veterans software application. It is designed for both novice and experienced users to help them understand the program’s functionalities, installation procedures, and troubleshooting methods. Please read through the entire manual to fully benefit from the software.</p>
 
+            
+            <h2>Description of the Product</h2>
+            <p>MindWell for Veterans (MWV) is an internet-based software application designed to enable Veterans to navigate the complex landscape of healthcare after they leave military service. Currently, there are many different services offered to Veterans, but due to their disjointed nature, many are underutilized because most veterans have difficulty finding, accessing, or trouble using the services that are available to them. MWV will be a centralized repository for access to all these systems utilizing an API (Application Programming Interface) connection from the Veterans Affairs (VA) Office to bring up to date information to the site allowing Veterans across the world to find the resources they need. </p>
+            
+            <h2>Using MindWell for Veterans</h2>
+            <h3>Main Interface Overview</h3>
+            <p>The main interface consists of:</p>
+            <ul>
+                <li>Dashboard: Central hub for accessing all features.</li>
+                <li>Navigation Bar: Navigation menu for different sections like Home, Marketing, Prototype, User Guide, About Me, LinkedIn, and GitHub.</li>
+            </ul>
+            
+            <h3>Key Features and Functions</h3>
+            <ol>
+                <li><strong>Helpful Links</strong>
+                    <p>Click on the "New Project" button on the dashboard. Enter project details and save.</p>
+                </li>
+                <li><strong>Practitioner API Call</strong>
+                    <p>Access the "Practitioner API Data" section to retrieve and display data from the Veterans Affairs Sandbox API.</p>
+                </li>
+                <li><strong>Calender:</strong>
+                    <p>Use the built-in messaging tool for team communication. Share files directly within the project space.</p>
+                </li>
+                <li><strong>Additional Links</strong>
+                    <p>Go to the "Reports" section. Select the type of report and date range, then generate the report.</p>
+                </li>
+                <li><strong>API Integration:</strong>
+                    <p></p>
+                </li>
+            </ol>
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li>Operating System: Windows, Linux, or Mac OS (Operating Systems)</li>
+                <li>System: <strong>NOT</strong> recommended for smart phone or tablet use</li>
+                <li>Processor: Dual-core processor recommended</li>
+                <li>RAM: 4GB of RAM is required for most applications but 8GB is recommended for common use.</li>
+                <li>Disk Space: Minimum of 200MB for downloading a running a local application</li>
+                <li>network Interface Card: Required for activation and updates</li>
+                <li>Camera and Microphone: Required for telehealth and peer support.</li>
+            </ul>
+
+            <h2>Relation to Other Documents</h2>
+            <p>This user manual is part of a documentation suite that includes:</p>
+            <ul>
+                <li><strong>Deployed Web Link:</strong><a href="https://jinman36.github.io/MindWellforVeterans/MWVHomePage.html">MWV Home Page</a></li>
+                <li><strong>Github Repo:</strong><a href="https://github.com/jinman36/MindWellforVeterans">MindWellforVeterans Repository</a></li>
+                <li><strong>User Support Manual:</strong><a href="https://jinman36.github.io/MindWellforVeterans/MWVUserGuide.html">User Support Guide</a></li>
+            </ul>
+            
+            <h3>Composition of the Product</h3>
+            <ul>
+                <li>User Interface: Intuitive and user-friendly.</li>
+                <li>API Integration: Utilizes Veterans Affairs API for retrieving active VA practitioners (currently sandbox API)</li>
+                <li>Calender: Calender connected to mentors willing to offer assistance</li>
+            </ul>
+
+            <h2>List of Images</h2>
+            <ul>
+                <li>Image 1: MindWell Site Map</li>
+                <img src="images/site_map.JPG" alt="MWV site map" width="500" height="300">
+                <li>Image 2: MindWell Network Overview</li>
+                <img src="images/PrototypeOverview.JPG" alt="Network Architecture overview" width="500" height="300">
+                <li>Image 4: Feature Usage Example</li>
+                <p></p>
+                <img src="images/pract_collapsed.JPG" alt="Practicioner table collapsed" width=90% height="400">
+                <img src="images/pract_available_table.JPG" alt="Practicioner table expanded" width=90% height="400">
+
+            </ul>
+
+            <h2>General Safety Prescriptions</h2>
+            <ul>
+                <li>Data Backup: Regularly back up your data to prevent loss in case of software failure.</li>
+                <li>Software Updates: Ensure the software is updated to the latest version to avoid security vulnerabilities and benefit from new features.</li>
+                <li>System Compatibility: Verify that your system meets the minimum technical specifications before installation.</li>
+                <li>Antivirus Software: Keep your antivirus software up to date to protect your system from malicious threats.</li>
+            </ul>
+
+            <h2>Local Installation and Setup</h2>
+                <p>MindWell for Veterans is meant for webbased use but is licensed under open-source MIT license to promote continued growth and reach</p>
+            <ol>
+                <li><strong>Copy the source code link (HTTPS) *** Requires a Github account & access token</strong>
+                    <p>Visit the official MindWell GitHub repository and download the appropriate HTTP git link.</p>
+                </li>
+                <li><strong>Create Local Repository</strong>
+                    <p>Move to appropriate folder that you would like to store repository</p>
+                    <p>cd desktop, etc...</p>
+                    <p>git clone https://github.com/jinman36/MindWellforVeterans.git</p>
+                </li>
+                <li><strong>Launch Local Instance of Repo</strong>
+                    <p>cd MindWellforVeterans</p>
+                    <p><strong>option 1:</strong> Will create a python server to launch site</p>
+                    <p>python -m http.server</p>
+                    <p>Open up browser: localhost:8000</p>
+                    <p><strong>option 2:</strong> Using VScode, Install "live Server"</p>
+                    <p>Bottom right hand corner, click "go live"</p>
+                    <p>Open up browser: localhost:5500</p>
+                    <li><strong>Submitting Improvements to code base</strong>
+                    <p>Create new working branch with improvement features</p>
+                    <p>Once branch is created, a reviewer will approve/deny and merge to main branch</p>
+                </li>
+            </ol>
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <ul>
+                <li><strong>Q1:</strong> How do I reset my VA password?
+                    <p><strong>A1:</strong> Go to the MWV Home page, click on the VA Official Page link, sign in, and then click "Forgot Password" to receive a reset link.</p>
+                </li>
+                <li><strong>Q2:</strong> How can I find available VA Practitioners in my area?
+                    <p><strong>A2:</strong> Navigate to the "Available Practictioners" section and use the "Load Practictioners " function to view data in a table format.</p>
+                </li>
+                <li><strong>Q3:</strong> What should I do if the software crashes?
+                    <p><strong>A3:</strong> Restart the software and contact support if the issue persists.</p>
+                </li>
+                <li><strong>Q4:</strong> How do I configure the Veterans Affairs API integration?
+                    <p><strong>A4:</strong> The API is already confirgured for use within the site. Simply load the data with the "Load Practictioners" button.</p>
+                </li>
+            </ul>
+
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li><strong>Installation Issues:</strong> Ensure your system meets the requirements and try reinstalling the software.</li>
+                <li><strong>Performance Issues:</strong> Close unnecessary applications and check for software updates.</li>
+                <li><strong>API Connection Errors:</strong> Verify your internet connection and all other network connections.</li>
+                <li><strong>Error Messages:</strong> Refer to the error code list in the technical support manual or contact support.</li>
+            </ul>
+
+            <h2>Contact and Support Information</h2>
+            <p>For further assistance, please contact our support team:</p>
+            <ul>
+                <li><strong>Email:</strong> support@mindwell.com</li>
+                <li><strong>Phone:</strong> 1-800-MWV-VET</li>
+                <li><strong>Calender:</strong> Available on the home page, feel free to schedule an appointment.</li>
+            </ul>
+        </div>
+    </div>
         <footer>
             <p>&#169; 2024 MindWell for Vets</p>
             <p>Jeff Inman</p>

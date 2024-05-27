@@ -16,21 +16,27 @@
     <body>
       <header>
         <img class="header" src="images/MWV.JPG" alt="linkedIn picture">
+        
       </header>
 
         <nav class="navbar">
             <ul class="nav-list">
                 <!-- Javascript fuctions - coloring on the navigation tab :) -->
-                <li ><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVHomePage.html">Home</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVMarketing.html">Marketing</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVPrototype.html">Prototype</a></li>
-                <li><a onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVUserGuide.html">User Guide</a></li>
-                <li>||----||</li>
-                <li ><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="MWVaboutme.html">About Me</a></li>
-                <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://www.linkedin.com/in/jefferyinman/" target="_blank">linkedIn</a></li>
-                <li><a onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
+                <li ><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVHomePage.html">Home</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVMarketing.html">Marketing</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVPrototype.html">Prototype</a></li>
+                <li><a class="nav-link" onmouseover="style.color='lightblue'" onmouseout="style.color='white'" href="MWVUserGuide.html">User Guide</a></li>
+                <li ><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="MWVaboutme.html">About Me</a></li>
+                <li><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://www.linkedin.com/in/jefferyinman/" target="_blank">linkedIn</a></li>
+                <li><a class="nav-link" onmouseover="style.color='orange'" onmouseout="style.color='white'" href="https://github.com/jinman36" target="_blank">Github</a></li>
             </ul>
         </nav>
+        
+        <div class="user-container">
+          <div id="branding">
+              <h1>MindWell for Veterans</h1>
+          </div>
+        </div>
 
         <h4>Helpful Links</h4>
         <h4>--------------</h4>
@@ -38,7 +44,7 @@
             <div class="row align-items-start">
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="/images/VAseal.JPG" class="card-img-top" style="height: 10rem;" alt="Veterans Affairs Logo">
+                    <img src="images/VAseal.JPG" class="card-img-top" style="height: 10rem;" alt="Veterans Affairs Logo">
                     <div class="card-body">
                       <h5 class="card-title">Department of Veterans Affairs</h5>
                       <a href="https://www.va.gov/" class="btn btn-primary stretched-link" target="_blank">Veterans Affairs Official Site</a>
@@ -69,7 +75,7 @@
             <div class="row align-items-start">
               <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="/images/USA.JPG" class="card-img-top" style="height: 10rem;" alt="Veterans Affairs Logo">
+                    <img src="images/USA.JPG" class="card-img-top" style="height: 10rem;" alt="North American Map">
                     <div class="card-body">
                       <h5 class="card-title">Veteran Affairs Location Search</h5>
                       <a href="https://www.va.gov/find-locations" class="btn btn-info stretched-link" target="_blank">Veterans Affairs Location Search</a>
@@ -115,9 +121,6 @@
             <div class="container">
                 <button class="btn btn-primary" onclick="load_data()">Load Practitioner</button>
                 <button class="btn btn-danger" onclick="clear_data()">Clear Results</button>
-                <!-- Zip Code Practitioner Search box / not fuctional for prototype-->
-                <h4 style="padding-left: 3rem;">Zip Code:</h4>
-                <input type="text" name="zip_code" placeholder="Zip Code"><br>
             </div>
 
             <!-- Calender embed to arrange time for mentorship -->
