@@ -7,6 +7,7 @@
         <meta name="description" content="MindWell For Vets Home Page">
         <meta name="keywords" content="Health, Veterans, Veterans Affairs">
         <meta name="author" content="Jeff Inman">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <link rel="stylesheet" type="text/css" href="style/MWVStylesheet.css">
         <title>
             MindWell For Vets || Marketing
@@ -71,31 +72,34 @@
                     <tbody>
                         <tr>
                             <td>Digital Marketing</td>
-                            <td>$ 50,000</td>
-                        </tr>
-                        <tr>
-                            <td>Partnerships and Collaborations</td>
-                            <td>$ 30,000</td>
-                        </tr>
-                        <tr>
-                            <td>Public Relations</td>
-                            <td>$ 20,000</td>
-                        </tr>
-                        <tr>
-                            <td>Community Engagement</td>
-                            <td>$ 15,000</td>
-                        </tr>
-                        <tr>
-                            <td>Miscellaneous</td>
                             <td>$ 10,000</td>
                         </tr>
                         <tr>
+                            <td>Partnerships and Collaborations</td>
+                            <td>$ 10,000</td>
+                        </tr>
+                        <tr>
+                            <td>Public Relations</td>
+                            <td>$ 15,000</td>
+                        </tr>
+                        <tr>
+                            <td>Community Engagement</td>
+                            <td>$ 10,000</td>
+                        </tr>
+                        <tr>
+                            <td>Miscellaneous</td>
+                            <td>$ 5,000</td>
+                        </tr>
+                        <tr>
                             <th>Total</th>
-                            <td>$ 125,000</td>
+                            <td>$ 50,000</td>
                         </tr>
                         
                     </tbody>
                 </table>
+                <div style="width: 85%; margin: auto; border: black .5em solid;">
+                    <canvas id="MarketChart"></canvas>
+                </div>
                 
                 <h2>Timeline for Success</h2>
                 <table>
@@ -142,4 +146,39 @@
             <p><strong>Marketing Plan Template:</strong> https://www.smartsheet.com/free-marketing-plan-templates-excel</p>
           </footer>
     </body>
+    <script>
+        const ctx = document.getElementById('MarketChart').getContext('2d');
+        const budgetChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Digital Marketing', 'Partnerships and Collaborations', 'Public Relations', 'Community Engagement', 'Miscellaneous'],
+                datasets: [{
+                    label: 'Projected Cost (USD)',
+                    data: [10000, 10000, 15000, 10000, 5000],
+                    backgroundColor: [
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                    ],
+                    borderWidth: 5
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
 </html>
